@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Includes git, gcloud, and bazel.
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20201014
 # TODO(bentheelder): consider replacing all maintainers with a test-infra-maintainers alias of some sort
 LABEL maintainer="bentheelder@google.com"
 
