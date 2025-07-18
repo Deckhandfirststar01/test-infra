@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM ubuntu
+FROM ubuntu:24.10
 
 RUN apt-get update && apt-get install -y tzdata curl pv time sqlite3 python-pip && apt-get clean
 
